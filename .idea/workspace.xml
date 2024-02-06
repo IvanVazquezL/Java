@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="initial files">
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectInMemory/application/DaoPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectInMemory/model/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectInMemory/repository/DeveloperDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectInMemory/repository/InMemoryDeveloperDao.java" afterDir="false" />
+    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Data Access Object in Memory added">
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/application/DaoPatternDbDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/model/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbDeveloperDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DeveloperDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2bxJGv25ZbBWg7g18IxUqaFbX7h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,13 +44,48 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DaoPatternDbDemo.executor": "Run",
     "Application.DaoPatternDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DataAccessObjectJDBC.model" />
+      <recent name="DataAccessObjectJDBC.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DaoPatternDbDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DataAccessObjectJDBC.application.DaoPatternDbDemo" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DataAccessObjectJDBC.application.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DaoPatternDbDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-temurin-17.0.10-3183f394aec4-87f3d08d" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,11 +103,30 @@
       <option name="project" value="LOCAL" />
       <updated>1707150796306</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Data Access Object in Memory added">
+      <option name="closed" value="true" />
+      <created>1707153964375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707153964375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial files" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial files" />
+    <MESSAGE value="Data Access Object in Memory added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Access Object in Memory added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
