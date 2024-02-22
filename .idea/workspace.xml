@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Data Access Object in Memory added">
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/application/DaoPatternDbDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/model/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbDeveloperDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DeveloperDao.java" afterDir="false" />
+    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Data Access Object JDBC added">
+      <change afterPath="$PROJECT_DIR$/src/Minimax/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minimax/Minimax.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Minimax/Move.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataAccessObjectJDBC/application/DaoPatternDbDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/application/DaoPatternDbDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbDeveloperDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataAccessObjectJDBC/repository/DbDeveloperDao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IvanVazquezL&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6a4464f3-3431-438b-aec4-ac755dd7427d" />
+        <option name="url" value="https://github.com/IvanVazquezL/Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
@@ -46,6 +61,7 @@
   "keyToString": {
     "Application.DaoPatternDbDemo.executor": "Run",
     "Application.DaoPatternDemo.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -59,7 +75,7 @@
       <recent name="DataAccessObjectJDBC.repository" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DaoPatternDbDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataAccessObjectJDBC.application.DaoPatternDbDemo" />
       <module name="Java" />
@@ -73,8 +89,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Minimax.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Minimax.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DaoPatternDbDemo" />
       </list>
     </recent_temporary>
@@ -111,13 +141,22 @@
       <option name="project" value="LOCAL" />
       <updated>1707153964375</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Data Access Object JDBC added">
+      <option name="closed" value="true" />
+      <created>1707181388321</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707181388322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial files" />
     <MESSAGE value="Data Access Object in Memory added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data Access Object in Memory added" />
+    <MESSAGE value="Data Access Object JDBC added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Access Object JDBC added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

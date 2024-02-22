@@ -1,5 +1,5 @@
 package DataAccessObjectJDBC.application;
-
+/*
 import DataAccessObjectJDBC.model.Developer;
 import DataAccessObjectJDBC.repository.DeveloperDao;
 import DataAccessObjectJDBC.repository.DbDeveloperDao;
@@ -34,4 +34,4 @@ public class DaoPatternDbDemo {
         developerDao.deleteById(10); // Developer: Id 10 not found
         developerDao.findById(0); // Developer: Id 0, not found
     }
-}
+}*/

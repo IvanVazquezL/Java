@@ -1,5 +1,6 @@
 package DataAccessObjectJDBC.repository;
 
+/*
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -71,3 +72,4 @@ public class DbDeveloperDao implements DeveloperDao {
         System.out.println("Developer: Id " + id + ", deleted");
     }
 }
+*/
