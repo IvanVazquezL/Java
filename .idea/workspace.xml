@@ -4,14 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Threads">
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/BookPractice/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/BookPractice/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/BookPractice/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/BookPractice/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/UserPractice/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/UserPractice/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DataAccessObjectPractice/UserPractice/UserDaoImpl.java" afterDir="false" />
+    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Data Access Object Practice added">
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Brush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Class.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ClassExtendsClassAndImplementsMultipleInterfaces/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ClassExtendsClassAndImplementsMultipleInterfaces/Driveable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ClassExtendsClassAndImplementsMultipleInterfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ClassExtendsClassAndImplementsMultipleInterfaces/Parkable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ClassExtendsClassAndImplementsMultipleInterfaces/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Curve.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/DrawingTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ImplementMultipleInterfaces/Duck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ImplementMultipleInterfaces/Flyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ImplementMultipleInterfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ImplementMultipleInterfaces/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/ImplementMultipleInterfaces/Swimmer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceExtendsMultipleInterfaces/Developer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceExtendsMultipleInterfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceExtendsMultipleInterfaces/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceExtendsMultipleInterfaces/MultiSkilledEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceExtendsMultipleInterfaces/MultiSkilledWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceExtendsMultipleInterfaces/Tester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Interfaces.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Pencil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Practice1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Practice1/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Practice1/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/Practice1/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +84,9 @@
     "Application.DaoPatternDbDemo.executor": "Run",
     "Application.DaoPatternDemo.executor": "Run",
     "Application.DataAccessObjectPractice.BookPractice.Main.executor": "Run",
+    "Application.Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main.executor": "Run",
+    "Application.Interfaces.ImplementMultipleInterfaces.Main.executor": "Run",
+    "Application.Interfaces.Main.executor": "Run",
     "Application.Lambda.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Threads.Main.executor": "Run",
@@ -79,13 +103,13 @@
       <recent name="DataAccessObjectJDBC.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DataAccessObjectPractice.BookPractice.Main">
-    <configuration name="DaoPatternDbDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataAccessObjectJDBC.application.DaoPatternDbDemo" />
+  <component name="RunManager" selected="Application.Interfaces.Practice1.Main">
+    <configuration name="Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataAccessObjectJDBC.application.*" />
+          <option name="PATTERN" value="Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataAccessObjectPractice.BookPractice.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataAccessObjectPractice.BookPractice.Main" />
+    <configuration name="Interfaces.ImplementMultipleInterfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.ImplementMultipleInterfaces.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataAccessObjectPractice.BookPractice.*" />
+          <option name="PATTERN" value="Interfaces.ImplementMultipleInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +130,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lambda.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lambda.Main" />
+    <configuration name="Interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lambda.*" />
+          <option name="PATTERN" value="Interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interfaces.Practice1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interfaces.Practice1.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Interfaces.Practice1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,24 +157,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Minimax.Main" />
+      <option name="MAIN_CLASS_NAME" value="Interfaces.InterfaceExtendsMultipleInterfaces.Main" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Minimax.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Threads.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Threads.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Threads.*" />
+          <option name="PATTERN" value="Interfaces.InterfaceExtendsMultipleInterfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DataAccessObjectPractice.BookPractice.Main" />
-        <item itemvalue="Application.Threads.Main" />
-        <item itemvalue="Application.Lambda.Main" />
+        <item itemvalue="Application.Interfaces.Practice1.Main" />
+        <item itemvalue="Application.Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DaoPatternDbDemo" />
+        <item itemvalue="Application.Interfaces.ImplementMultipleInterfaces.Main" />
+        <item itemvalue="Application.Interfaces.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708815825091</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Data Access Object Practice added">
+      <option name="closed" value="true" />
+      <created>1708926522549</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708926522549</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -220,7 +252,8 @@
     <MESSAGE value="Data Access Object JDBC added" />
     <MESSAGE value="Minimax" />
     <MESSAGE value="Threads" />
-    <option name="LAST_COMMIT_MESSAGE" value="Threads" />
+    <MESSAGE value="Data Access Object Practice added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Access Object Practice added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -229,6 +262,15 @@
           <properties class="java.lang.ClassNotFoundException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Interfaces/ClassExtendsClassAndImplementsMultipleInterfaces/Main.java</url>
+          <line>3</line>
+          <properties class="Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

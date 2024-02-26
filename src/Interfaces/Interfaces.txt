@@ -1,0 +1,14 @@
+An interface contains method declarations and serves as literally an interface between a
+class inheriting that interface and the other classes. Unlike a class, an interface can extend
+multiple interfaces, and a class can implement multiple interfaces.
+
+The keyword abstract before a method means that the method does not have a body, it
+just declares a signature.
+
+A class can implement multiple interfaces.
+
+An interface can extend one or more other interfaces using the keyword extends.
+
+A class can also extend another class and implement multiple interfaces.
+
+
