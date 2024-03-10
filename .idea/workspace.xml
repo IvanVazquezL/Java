@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Generic Types added">
-      <change afterPath="$PROJECT_DIR$/src/CommandLineArguments/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CommandLineArguments/text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lists/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Records/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMembers/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMembers/MovimientoConAceleracionConstante.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMembers/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StaticMembers/Task.java" afterDir="false" />
+    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="CommandLineArguments, Lists, Records, StaticMembers added">
+      <change afterPath="$PROJECT_DIR$/src/Sockets/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sockets/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sockets/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StaticMembers/CircuitoElectrico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +57,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CircuitoElectrico.executor": "Run",
     "Application.CommandLineArguments.Main.executor": "Run",
     "Application.DaoPatternDbDemo.executor": "Run",
     "Application.DaoPatternDemo.executor": "Run",
     "Application.DataAccessObjectPractice.BookPractice.Main.executor": "Run",
+    "Application.EchoClient.executor": "Run",
     "Application.Generics.Main.executor": "Run",
     "Application.Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main.executor": "Run",
     "Application.Interfaces.ImplementMultipleInterfaces.Main.executor": "Run",
@@ -90,13 +88,13 @@
       <recent name="DataAccessObjectJDBC.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StaticMembers.Main">
-    <configuration name="Lists.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists.Main" />
+  <component name="RunManager" selected="Application.EchoClient">
+    <configuration name="CircuitoElectrico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticMembers.CircuitoElectrico" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lists.*" />
+          <option name="PATTERN" value="StaticMembers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,13 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommandLineArguments.Main" />
+    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sockets.EchoClient" />
       <module name="Java" />
-      <option name="PROGRAM_PARAMETERS" value="% 30 20" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommandLineArguments.*" />
+          <option name="PATTERN" value="Sockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Records.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Records.Main" />
+    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sockets.EchoServer" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Records.*" />
+          <option name="PATTERN" value="Sockets.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,19 +155,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Records.Main" />
+      <item itemvalue="Application.EchoClient" />
+      <item itemvalue="Application.EchoServer" />
+      <item itemvalue="Application.CircuitoElectrico" />
       <item itemvalue="Application.StaticMembers.Main" />
       <item itemvalue="Application.Task" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Lists.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EchoClient" />
+        <item itemvalue="Application.EchoServer" />
+        <item itemvalue="Application.CircuitoElectrico" />
         <item itemvalue="Application.StaticMembers.Main" />
         <item itemvalue="Application.Task" />
-        <item itemvalue="Application.Records.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lists.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709012397424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="CommandLineArguments, Lists, Records, StaticMembers added">
+      <option name="closed" value="true" />
+      <created>1709790057647</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709790057647</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -266,7 +271,8 @@
     <MESSAGE value="Data Access Object Practice added" />
     <MESSAGE value="Interfaces added" />
     <MESSAGE value="Generic Types added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generic Types added" />
+    <MESSAGE value="CommandLineArguments, Lists, Records, StaticMembers added" />
+    <option name="LAST_COMMIT_MESSAGE" value="CommandLineArguments, Lists, Records, StaticMembers added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
