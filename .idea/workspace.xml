@@ -4,23 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Sockets added">
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DeveloperExample/Developer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DeveloperExample/DeveloperDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DeveloperExample/JavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DeveloperExample/JavaTeamLead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DeveloperExample/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/DeveloperExample/SeniorJavaDeveloper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample/HotPepper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample/Pepperoni.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample/Pizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample/PlainPizza.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample/ToppingWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Decorator/decorator.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sockets/Session.java" afterDir="false" />
+    <list default="true" id="8027ea83-02d0-48c5-b2b6-1cad1e6060fe" name="Changes" comment="Decorator Pattern added">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Breakfast/TestDriven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/ComputerParts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/ComputerWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/GPU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/Peripherals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/ComputerExample/SSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Broccoli.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Decorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Ham.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/MeatHeaven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Spinach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Tomato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/PizzaExample2/Vegan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/TestDrive/TestDrive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sockets/EchoClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sockets/EchoClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sockets/EchoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sockets/EchoServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,34 +71,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CircuitoElectrico.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CommandLineArguments.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DaoPatternDbDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DaoPatternDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DataAccessObjectPractice.BookPractice.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EchoClient.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EchoServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Generics.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.ImplementMultipleInterfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Interfaces.Practice1.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambda.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lists.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Records.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticMembers.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Task.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Threads.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CircuitoElectrico.executor": "Run",
+    "Application.CommandLineArguments.Main.executor": "Run",
+    "Application.DaoPatternDbDemo.executor": "Run",
+    "Application.DaoPatternDemo.executor": "Run",
+    "Application.DataAccessObjectPractice.BookPractice.Main.executor": "Run",
+    "Application.Decorator.Breakfast.TestDrive.executor": "Run",
+    "Application.Decorator.ComputerExample.Main.executor": "Run",
+    "Application.Decorator.PizzaExample.Main.executor": "Run",
+    "Application.Decorator.PizzaExample2.Main.executor": "Run",
+    "Application.EchoClient.executor": "Run",
+    "Application.EchoServer.executor": "Run",
+    "Application.Generics.Main.executor": "Run",
+    "Application.Interfaces.ClassExtendsClassAndImplementsMultipleInterfaces.Main.executor": "Run",
+    "Application.Interfaces.ImplementMultipleInterfaces.Main.executor": "Run",
+    "Application.Interfaces.Main.executor": "Run",
+    "Application.Interfaces.Practice1.Main.executor": "Run",
+    "Application.Lambda.Main.executor": "Run",
+    "Application.Lists.Main.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Records.Main.executor": "Run",
+    "Application.StaticMembers.Main.executor": "Run",
+    "Application.Task.executor": "Run",
+    "Application.TestDrive.executor": "Run",
+    "Application.Threads.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ivanv\Documents\Java\Java\src\Decorator\DeveloperExample" />
@@ -103,13 +113,39 @@
       <recent name="DataAccessObjectJDBC.repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Decorator.PizzaExample.Main">
-    <configuration name="CircuitoElectrico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StaticMembers.CircuitoElectrico" />
+  <component name="RunManager" selected="Application.Decorator.Breakfast.TestDrive">
+    <configuration name="Decorator.Breakfast.TestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.Breakfast.TestDrive" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StaticMembers.*" />
+          <option name="PATTERN" value="Decorator.Breakfast.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator.ComputerExample.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.ComputerExample.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.ComputerExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Decorator.PizzaExample2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.PizzaExample2.Main" />
+      <module name="Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Decorator.PizzaExample2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,38 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EchoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sockets.EchoClient" />
+    <configuration name="TestDrive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Decorator.TestDrive.TestDrive" />
       <module name="Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sockets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EchoServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sockets.EchoServer" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Sockets.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Decorator.DeveloperExample.Main" />
-      <module name="Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Decorator.DeveloperExample.*" />
+          <option name="PATTERN" value="Decorator.TestDrive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +180,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Decorator.Breakfast.TestDrive" />
+      <item itemvalue="Application.Decorator.ComputerExample.Main" />
       <item itemvalue="Application.Decorator.PizzaExample.Main" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.EchoClient" />
-      <item itemvalue="Application.EchoServer" />
-      <item itemvalue="Application.CircuitoElectrico" />
+      <item itemvalue="Application.Decorator.PizzaExample2.Main" />
+      <item itemvalue="Application.TestDrive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Decorator.Breakfast.TestDrive" />
+        <item itemvalue="Application.TestDrive" />
+        <item itemvalue="Application.Decorator.PizzaExample2.Main" />
+        <item itemvalue="Application.Decorator.ComputerExample.Main" />
         <item itemvalue="Application.Decorator.PizzaExample.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.EchoClient" />
-        <item itemvalue="Application.EchoServer" />
-        <item itemvalue="Application.CircuitoElectrico" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710033410998</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Decorator Pattern added">
+      <option name="closed" value="true" />
+      <created>1710821053563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1710821053564</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -296,7 +314,8 @@
     <MESSAGE value="Generic Types added" />
     <MESSAGE value="CommandLineArguments, Lists, Records, StaticMembers added" />
     <MESSAGE value="Sockets added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sockets added" />
+    <MESSAGE value="Decorator Pattern added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decorator Pattern added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
