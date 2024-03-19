@@ -17,13 +17,15 @@ public class EchoClient {
             DataOutputStream output = new DataOutputStream(socket.getOutputStream());
         )
         {
-            Scanner scanner = new Scanner(System.in);
-            String msg = scanner.nextLine();
+            for (int i = 0; i < 5; i++) {
+                Scanner scanner = new Scanner(System.in);
+                String msg = scanner.nextLine();
 
-            output.writeUTF(msg); // send a message to the server
-            String receivedMsg = input.readUTF(); // read the reply from the server
+                output.writeUTF(msg);
+                String receivedMsg = input.readUTF();
 
-            System.out.println("Received from the server: " + receivedMsg);
+                System.out.println(receivedMsg);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
